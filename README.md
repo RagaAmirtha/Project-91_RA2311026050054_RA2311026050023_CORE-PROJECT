@@ -33,8 +33,7 @@ Patch size: 256 × 256
 Total patches extracted: 1764
 Filtered patches with deforestation pixels: 162
 
-
-#Algorithms & Techniques Used#
+# Algorithms & Techniques Used
 NDVI Computation
 Attention U-Net
 Binary Cross Entropy + Dice Loss
@@ -42,7 +41,8 @@ Monte Carlo Dropout
 Threshold-based Segmentation
 Morphological Smoothing
 Risk Score Classification
-Results
+
+# Results
 Metric	Value
 Epochs	30
 IoU Score	0.0016
@@ -56,7 +56,7 @@ Uncertainty Map
 Risk Classification Map
 
 
-Future Improvements
+# Future Improvements
 Increase dataset size for better learning
 Improve segmentation accuracy
 Integrate cloud deployment
